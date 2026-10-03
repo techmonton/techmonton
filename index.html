@@ -6,8 +6,23 @@
     <title>TechMonton | Global IoT, Telematics & Automation</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #2c3e50; background: #f0f4f8; line-height: 1.6; }
-        header { background: linear-gradient(135deg, #1a365d 0%, #0d9488 100%); color: white; padding: 50px 20px; text-align: center; }
-        header img { max-width: 220px; height: auto; margin-bottom: 15px; border-radius: 8px; }
+        header { background: linear-gradient(135deg, #1a365d 0%, #0d9488 100%);
+    color: white;
+    padding: 60px 20px; /* Increased vertical padding for a larger panel */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 90%;          /* Allows the logo to spread across the panel width */
+    max-width: 650px;    /* Increases maximum size ~3x from the original 220px limit */
+    height: auto;        /* Keeps correct image proportions */
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25); /* Subtle shadow for depth */ }
         header h1 { margin: 0; font-size: 2.5em; letter-spacing: 1px; }
         header p { font-size: 1.2em; color: #e2e8f0; margin-top: 8px; }
         .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
