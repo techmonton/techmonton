@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechMonton | Global IoT Tech, Telematics & Automation</title>
+    <title>TechMonton | Global IoT, Telematics & Automation</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #2c3e50; background: #f8fbfd; line-height: 1.6; }
-        header { background: #1a365d; color: white; padding: 40px 20px; text-align: center; }
-        header img { max-width: 200px; height: auto; margin-bottom: 15px; }
-        header h1 { margin: 0; font-size: 2.2em; }
-        header p { font-size: 1.1em; color: #cbd5e1; }
-        .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
-        .section { background: white; border-radius: 8px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        h2 { color: #0d9488; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #2c3e50; background: #f0f4f8; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #1a365d 0%, #0d9488 100%); color: white; padding: 50px 20px; text-align: center; }
+        header img { max-width: 220px; height: auto; margin-bottom: 15px; border-radius: 8px; }
+        header h1 { margin: 0; font-size: 2.5em; letter-spacing: 1px; }
+        header p { font-size: 1.2em; color: #e2e8f0; margin-top: 8px; }
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .grid-card { background: white; border-radius: 12px; overflow: hidden; margin-bottom: 35px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); display: flex; flex-wrap: wrap; }
+        .card-img { flex: 1 1 400px; min-height: 250px; background-size: cover; background-position: center; }
+        .card-content { flex: 1 1 400px; padding: 30px; }
+        h2 { color: #0d9488; margin-top: 0; border-bottom: 2px solid #f0f4f8; padding-bottom: 10px; }
         ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .contact-btn { display: inline-block; background: #0d9488; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
-        footer { text-align: center; padding: 20px; color: #64748b; font-size: 0.9em; }
+        li { margin-bottom: 10px; }
+        .contact-btn { display: inline-block; background: #0d9488; color: white; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 15px; transition: background 0.3s ease; }
+        .contact-btn:hover { background: #0f766e; }
+        footer { text-align: center; padding: 25px; color: #64748b; font-size: 0.9em; background: #e2e8f0; margin-top: 40px; }
     </style>
 </head>
 <body>
@@ -28,46 +31,56 @@
 </header>
 
 <div class="container">
-    <div class="section">
-        <h2>About Us</h2>
-        <p>Backed by extensive telecommunications and IoT expertise, TechMonton delivers enterprise-grade hardware integration, real-time remote monitoring, and automated control for fleets, agriculture, and smart properties.</p>
+
+    <!-- Fleet Telematics Section -->
+    <div class="grid-card">
+        <div class="card-img" style="background-image: url('Fleet.jpg');"></div>
+        <div class="card-content">
+            <h2>1. Fleet Telematics & Vehicle Security</h2>
+            <p>Complete remote monitoring and anti-theft management for cars, commercial trucks, and passenger buses.</p>
+            <ul>
+                <li><strong>Hardware Integration:</strong> Expert setup for Teltonika, GoSafe, and JimiLab devices.</li>
+                <li><strong>Live Tracking & Security:</strong> Real-time GPS location, geofencing, remote engine cut-off, and fuel monitoring.</li>
+                <li><strong>Cabin & Road View:</strong> Dual dashcams & MDVR integration for live video streaming inside and outside vehicles.</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>1. Fleet Telematics & Vehicle Security</h2>
-        <p>Complete remote monitoring and anti-theft management for cars, commercial trucks, and passenger buses.</p>
-        <ul>
-            <li><strong>Hardware Integration:</strong> Expert setup for Teltonika, GoSafe, and JimiLab devices (OBD & hardwired).</li>
-            <li><strong>Live Tracking & Security:</strong> Real-time GPS location, geofencing, remote engine kill/cut-off, and fuel monitoring.</li>
-            <li><strong>Cabin & Road View:</strong> Dual dashcams & MDVR integration for live video streaming inside and outside vehicles.</li>
-        </ul>
+    <!-- Smart Agriculture Section -->
+    <div class="grid-card">
+        <div class="card-content">
+            <h2>2. Smart Agriculture & Livestock Automation</h2>
+            <p>Modernizing farm management with reliable IoT telemetry and off-grid surveillance.</p>
+            <ul>
+                <li><strong>Livestock Monitoring:</strong> Installation of smart cow collars/tags to track vitals, movement, and rumination.</li>
+                <li><strong>Specialized Farms:</strong> Customized remote monitoring solutions for cattle, ostrich, and poultry operations.</li>
+                <li><strong>Remote Security:</strong> Solar-powered surveillance cameras for off-grid perimeter defense.</li>
+            </ul>
+        </div>
+        <div class="card-img" style="background-image: url('Animals.jpg');"></div>
     </div>
 
-    <div class="section">
-        <h2>2. Smart Agriculture & Livestock Automation</h2>
-        <p>Modernizing farm management with reliable IoT telemetry and off-grid surveillance.</p>
-        <ul>
-            <li><strong>Livestock Monitoring:</strong> Installation of smart cow collars/tags to track vitals, movement, rumination, and estrus cycles.</li>
-            <li><strong>Specialized Farms:</strong> Customized remote monitoring solutions for cattle, ostrich, and poultry operations.</li>
-            <li><strong>Remote Security:</strong> Solar-powered surveillance cameras for off-grid perimeter defense and continuous site monitoring.</li>
-        </ul>
+    <!-- Smart Home Section -->
+    <div class="grid-card">
+        <div class="card-img" style="background-image: url('Home.jpg');"></div>
+        <div class="card-content">
+            <h2>3. Smart Home & Energy Automation</h2>
+            <p>Intelligent control systems to monitor energy use and secure living spaces from anywhere.</p>
+            <ul>
+                <li><strong>Appliance & Power Control:</strong> Installation of smart plugs, switches, and relays for automated scheduling.</li>
+                <li><strong>Integrated Security:</strong> HD indoor/outdoor IP cameras with motion detection and mobile alerts.</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>3. Smart Home & Energy Automation</h2>
-        <p>Intelligent control systems to monitor energy use and secure living spaces from anywhere.</p>
-        <ul>
-            <li><strong>Appliance & Power Control:</strong> Installation of smart plugs, switches, and relays for automated scheduling and remote power cut-off.</li>
-            <li><strong>Integrated Security:</strong> HD indoor/outdoor IP cameras with motion detection and mobile alerts.</li>
-        </ul>
-    </div>
-
-    <div class="section" style="text-align: center;">
+    <!-- Contact Section -->
+    <div style="background: white; border-radius: 12px; padding: 40px; text-align: center; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);">
         <h2>Get in Touch</h2>
         <p>Ready to automate your fleet, farm, or property? Contact TechMonton today.</p>
-        <p><strong>Email:</strong> techmonton@gmail.com | <strong>Phone/WhatsApp:</strong> +1 (780) 545-1355</p>
+        <p><strong>Email:</strong> techmonton@gmail.com | <strong>Phone/WhatsApp:</strong> +1 (780) 545 1355</p>
         <a href="mailto:techmonton@gmail.com" class="contact-btn">Request a Consultation</a>
     </div>
+
 </div>
 
 <footer>
